@@ -87,3 +87,21 @@ C = 1
 ngram_range = (1, 2)
 min_df = 5
 sublinear_tf = True
+
+## Streamlit Demo
+
+### Spam Detection
+
+![Spam Detection](screenshots/streamlit-spam.png)
+
+### Ham Detection
+
+![Ham Detection](screenshots/streamlit-ham.png)
+
+## FastAPI
+
+The project also provides a REST API for email classification.
+
+### Swagger API Documentation
+
+![FastAPI Swagger UI](screenshots/fastapi-docs.png)
