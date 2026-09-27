@@ -13,15 +13,25 @@ The goal of this project is to build a production-oriented email spam classifica
 The project follows this pipeline:
 
 Dataset
+
 → EDA
+
 → Text preprocessing
+
 → TF-IDF
+
 → Model training
+
 → Hyperparameter tuning
+
 → Error analysis
+
 → Model serialization
+
 → FastAPI
+
 → Streamlit
+
 → Docker
 
 ---
@@ -87,6 +97,7 @@ C = 1
 ngram_range = (1, 2)
 min_df = 5
 sublinear_tf = True
+```
 
 ## Streamlit Demo
 
